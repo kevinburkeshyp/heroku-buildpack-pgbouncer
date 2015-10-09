@@ -98,5 +98,6 @@ EOFEOF
   let "n += 1"
 done
 
+cat /app/vendor/pgbouncer/pgbouncer.ini
 chmod go-rwx /app/vendor/pgbouncer/*
 chmod go-rwx /app/vendor/stunnel/*
